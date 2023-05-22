@@ -1,0 +1,375 @@
+#header {
+  border: none;
+}
+
+.starbucks-rewards {
+  background-color: #1e3932;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.starbucks-rewards h6 {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 9px;
+}
+.starbucks-rewards button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: solid 1px black;
+  border-radius: 40px;
+  height: 30px;
+  width: 90px;
+  margin: 20px 10px;
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.starbucks-rewards button a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+.starbucks-rewards button a {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.free-coffee-is-a-tap-away-container {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+.free-coffee-is-a-tap-away-container .h1-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.free-coffee-is-a-tap-away-container .h1-container h1 {
+  text-align: center;
+  width: 220px;
+  font-weight: 600;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+}
+.free-coffee-is-a-tap-away-container .p-container {
+  width: 100%;
+  text-align: center;
+}
+.free-coffee-is-a-tap-away-container .p-container p {
+  position: absolute;
+  top: 120px;
+  font-size: 15px;
+}
+.free-coffee-is-a-tap-away-container .btn-container {
+  display: flex;
+  justify-content: center;
+}
+.free-coffee-is-a-tap-away-container .btn-container button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: solid 1px black;
+  border-radius: 40px;
+  height: 30px;
+  width: 90px;
+  margin: 20px 10px;
+  top: 150px;
+  background-color: #00754a;
+  width: 130px;
+  border: none;
+}
+.free-coffee-is-a-tap-away-container .btn-container button a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+.free-coffee-is-a-tap-away-container .btn-container button a {
+  color: #fff;
+}
+.free-coffee-is-a-tap-away-container .link-container {
+  display: flex;
+  justify-content: center;
+}
+.free-coffee-is-a-tap-away-container .link-container .join-now-link {
+  position: absolute;
+  top: 220px;
+  color: #000;
+}
+.free-coffee-is-a-tap-away-container .desktop-img {
+  display: none;
+  width: 100%;
+  height: 745px;
+  object-fit: cover;
+}
+.free-coffee-is-a-tap-away-container img {
+  width: 100%;
+  height: 60vh;
+}
+
+#getting-started-is-easy-section .getting-started-is-easy-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#getting-started-is-easy-section .getting-started-is-easy-container h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#getting-started-is-easy-section .getting-started-is-easy-container p {
+  text-align: center;
+  font-size: 13px;
+}
+#getting-started-is-easy-section .getting-started-is-easy-container .card {
+  border: none;
+  position: relative;
+  height: 100px;
+  margin-top: 10px;
+  width: 95vw;
+}
+#getting-started-is-easy-section .getting-started-is-easy-container .card h6 {
+  position: absolute;
+  left: 60px;
+}
+#getting-started-is-easy-section .getting-started-is-easy-container .card p {
+  position: absolute;
+  text-align: left;
+  width: 270px;
+  top: 30px;
+  left: 60px;
+}
+#getting-started-is-easy-section .getting-started-is-easy-container .card p a {
+  color: #00754a;
+}
+#getting-started-is-easy-section .getting-started-is-easy-container .card img {
+  left: 0;
+  position: absolute;
+}
+
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .upper-part {
+  width: 100%;
+  height: 100px;
+  margin-top: 60px;
+  background-color: #f1f8f5;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container h2 {
+  text-align: center;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .buttons-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .buttons-container button {
+  border: none;
+  border-bottom: 3px #00754a solid;
+  padding-bottom: 20.1px;
+  background: none;
+  width: 30%;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .buttons-container button span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .buttons-container .star {
+  font-size: 10px;
+  color: #cba258;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .bottom-part {
+  width: 100%;
+  height: 409px;
+  background-color: #d4e9e2;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .bottom-part .card .img-container {
+  width: 100%;
+  height: 211px;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .bottom-part .card img {
+  width: 100%;
+  height: 211px;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .bottom-part .card h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+#get-your-favorites-for-free-section .get-your-favorites-for-free-container .bottom-part .card p {
+  text-align: center;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-1 a:nth-child(2) {
+    border-bottom: 5px #00754a solid;
+  }
+  .desktop-img {
+    display: block !important;
+  }
+  .phone-img {
+    display: none;
+  }
+  .free-coffee-is-a-tap-away-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+  }
+  .free-coffee-is-a-tap-away-container .h1-container {
+    justify-content: left;
+  }
+  .free-coffee-is-a-tap-away-container .h1-container h1 {
+    text-align: left;
+    width: 270px;
+    font-size: 36px;
+    top: 250px;
+    left: 35px;
+  }
+  .free-coffee-is-a-tap-away-container .p-container {
+    text-align: left;
+  }
+  .free-coffee-is-a-tap-away-container .p-container p {
+    left: 35px;
+    top: 350px;
+    font-size: 16px;
+  }
+  .free-coffee-is-a-tap-away-container .btn-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .free-coffee-is-a-tap-away-container .btn-container .join-in-the-app-btn {
+    display: none !important;
+  }
+  .free-coffee-is-a-tap-away-container .btn-container .join-now-btn {
+    display: block !important;
+    width: 100px;
+    top: 400px;
+    left: 20px;
+    transition: background-color 0.3s;
+  }
+  .free-coffee-is-a-tap-away-container .btn-container .join-now-btn:hover {
+    background-color: #158159;
+  }
+  .free-coffee-is-a-tap-away-container .link-container {
+    display: flex;
+    justify-content: center;
+  }
+  .free-coffee-is-a-tap-away-container .link-container .join-now-link {
+    display: none;
+  }
+  .free-coffee-is-a-tap-away-container .link-container p {
+    display: block !important;
+    position: absolute !important;
+    top: 400px;
+    text-align: left;
+    width: 400px;
+    left: 30px;
+  }
+  .free-coffee-is-a-tap-away-container .link-container p a {
+    color: #000;
+  }
+  .free-coffee-is-a-tap-away-container .link-container p a:hover {
+    text-decoration: none;
+  }
+  .free-coffee-is-a-tap-away-container .desktop-img {
+    display: none;
+    width: 100%;
+    height: 745px;
+    object-fit: cover;
+  }
+  .free-coffee-is-a-tap-away-container img {
+    width: 100%;
+    height: 60vh;
+  }
+  .footer-lis {
+    margin-top: 400px !important;
+  }
+  .starbucks-rewards {
+    justify-content: flex-start;
+  }
+  .starbucks-rewards button {
+    display: none;
+  }
+  .starbucks-rewards h6 {
+    margin-left: 120px;
+    margin-top: 5px;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container {
+    width: 100%;
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container p {
+    text-align: center;
+    font-size: 16px;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .cards-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card {
+    height: 185px;
+    width: 338px;
+    margin: 10px 24px 0 0;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card .mobile-p,
+  #getting-started-is-easy-section .getting-started-is-easy-container .card .mobile-h6 {
+    display: none !important;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card .desktop-p {
+    display: inline-block !important;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card .desktop-h6 {
+    display: block !important;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card h6 {
+    left: 40px;
+    top: 60px;
+    text-align: center;
+    font-size: 19px;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card p {
+    text-align: center;
+    font-size: 14px;
+    width: 270px;
+    top: 110px;
+    left: 40px;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card img {
+    top: -20px;
+    left: 45%;
+    position: absolute;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card:nth-child(1) h6 {
+    left: 80px;
+  }
+  #getting-started-is-easy-section .getting-started-is-easy-container .card:nth-child(3) h6 {
+    position: absolute;
+    left: 60px;
+  }
+}
+
+/*# sourceMappingURL=rewards.css.map */

@@ -1,0 +1,419 @@
+@import "colors";
+@import "mixins";
+
+#header {
+  border: none;
+}
+
+.starbucks-rewards {
+  background-color: $medium-jungle-green;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  @include center;
+  justify-content: space-around;
+  h6 {
+    color: $white;
+    font-weight: 700;
+    margin-top: 9px;
+  }
+
+  button {
+    @include button;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid $white;
+    a {
+      font-size: 13px;
+      color: $white;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+  }
+}
+
+.free-coffee-is-a-tap-away-container {
+  position: relative;
+
+  .h1-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    h1 {
+      text-align: center;
+      width: 220px;
+      font-weight: 600;
+      font-size: 30px;
+      position: absolute;
+      top: 30px;
+    }
+  }
+
+  .p-container {
+    width: 100%;
+    text-align: center;
+
+    p {
+      position: absolute;
+      top: 120px;
+      font-size: 15px;
+    }
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+
+    button {
+      position: absolute;
+      @include button;
+      top: 150px;
+      background-color: $tropical-rain-forest;
+      width: 130px;
+      border: none;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  .link-container {
+    display: flex;
+    justify-content: center;
+
+    .join-now-link {
+      position: absolute;
+      top: 220px;
+      color: $black;
+    }
+  }
+
+  .desktop-img {
+    display: none;
+    width: 100%;
+    height: 745px;
+    object-fit: cover;
+  }
+
+  img {
+    width: 100%;
+    height: 60vh;
+  }
+  width: 100%;
+  height: 60vh;
+}
+
+#getting-started-is-easy-section {
+  .getting-started-is-easy-container {
+    width: 100%;
+    margin-top: 50px;
+    @include center;
+    flex-direction: column;
+
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    p {
+      text-align: center;
+      font-size: 13px;
+    }
+
+    .card {
+      border: none;
+      position: relative;
+      height: 100px;
+      margin-top: 10px;
+      width: 95vw;
+
+      h6 {
+        position: absolute;
+        left: 60px;
+      }
+
+      p {
+        position: absolute;
+        text-align: left;
+        width: 270px;
+        top: 30px;
+        left: 60px;
+        a {
+          color: $tropical-rain-forest;
+        }
+      }
+
+      img {
+        left: 0;
+        position: absolute;
+      }
+    }
+  }
+}
+
+#get-your-favorites-for-free-section {
+  .get-your-favorites-for-free-container {
+    .upper-part {
+    width: 100%;
+    height: 100px;
+    margin-top: 60px;
+    background-color: $white-smoke;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .buttons-container {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 20px;
+
+      button {
+        border: none;
+        border-bottom: 3px $tropical-rain-forest solid;
+        padding-bottom: 20.1px;
+        background: none;
+        width: 30%;
+
+        span {
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+
+      .star {
+        font-size: 10px;
+        color: $sand-brown;
+      }
+
+    }
+
+    .bottom-part {
+      width: 100%;
+      height: 409px;
+      background-color: $pale-blue-lily;
+
+      .card {
+
+        .img-container {
+          width: 100%;
+          height: 211px;
+        }
+        img {
+          width: 100%;
+          height: 211px;
+        }
+
+        h3 {
+          text-align: center;
+          margin-top: 20px;
+        }
+
+        p {
+          text-align: center;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-1 {
+    a:nth-child(2) {
+      border-bottom: 5px $tropical-rain-forest solid;
+    }
+  }
+  .desktop-img {
+    display: block !important;
+  }
+
+  .phone-img {
+    display: none;
+  }
+
+  .free-coffee-is-a-tap-away-container {
+    position: relative;
+
+    .h1-container {
+      justify-content: left;
+
+      h1 {
+        text-align: left;
+        width: 270px;
+        font-size: 36px;
+        top: 250px;
+        left: 35px;
+      }
+    }
+
+    .p-container {
+      text-align: left;
+
+      p {
+        left: 35px;
+        top: 350px;
+        font-size: 16px;
+      }
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: flex-start;
+
+      .join-in-the-app-btn {
+        display: none !important;
+      }
+
+      .join-now-btn {
+        display: block !important;
+        width: 100px;
+        top: 400px;
+        left: 20px;
+        transition: background-color 0.3s;
+      }
+      .join-now-btn:hover {
+        background-color: #158159;
+      }
+    }
+
+    .link-container {
+      display: flex;
+      justify-content: center;
+
+      .join-now-link {
+        display: none;
+      }
+
+      p {
+        display: block !important;
+        position: absolute !important;
+        top: 400px;
+        text-align: left;
+        width: 400px;
+        left: 30px;
+
+        a {
+          color: $black;
+        }
+
+        a:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .desktop-img {
+      display: none;
+      width: 100%;
+      height: 745px;
+      object-fit: cover;
+    }
+
+    img {
+      width: 100%;
+      height: 60vh;
+    }
+    width: 100%;
+    height: 60vh;
+  }
+
+  .footer-lis {
+    margin-top: 400px !important;
+  }
+
+  .starbucks-rewards {
+    justify-content: flex-start;
+
+    button {
+      display: none;
+    }
+
+    h6 {
+      margin-left: 120px;
+      margin-top: 5px;
+    }
+  }
+
+  #getting-started-is-easy-section {
+    .getting-started-is-easy-container {
+      width: 100%;
+      margin-top: 500px;
+      @include center;
+      flex-direction: column;
+
+      h1 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      p {
+        text-align: center;
+        font-size: 16px;
+      }
+      .cards-container {
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+      }
+      .card {
+        height: 185px;
+        width: 338px;
+        margin: 10px 24px 0 0;
+
+        .mobile-p,
+        .mobile-h6 {
+          display: none !important;
+        }
+
+        .desktop-p {
+          display: inline-block !important;
+        }
+        .desktop-h6 {
+          display: block !important;
+        }
+
+        h6 {
+          left: 40px;
+          top: 60px;
+          text-align: center;
+          font-size: 19px;
+        }
+
+        p {
+          text-align: center;
+          font-size: 14px;
+          width: 270px;
+          top: 110px;
+          left: 40px;
+        }
+
+        img {
+          top: -20px;
+          left: 45%;
+          position: absolute;
+        }
+      }
+      .card:nth-child(1) {
+        h6 {
+          left: 80px;
+        }
+      }
+      .card:nth-child(3) {
+        h6 {
+          position: absolute;
+          left: 60px;
+        }
+      }
+    }
+  }
+}
